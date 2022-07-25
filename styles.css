@@ -1,0 +1,41 @@
+div {
+
+  border-color: black;
+  border-style: dashed;
+  padding: 20px;
+}
+
+
+.link:hover {
+  background-color: red;
+}
+
+.master:hover {
+  background-color: red;
+}
+
+.first_child>p:first-child {
+  background-color: red;
+}
+
+input:hover {
+  background-color: red;
+}
+
+.intro::first-line {
+  background-color: red;
+}
+
+.first_letter::first-letter {
+  background-color: red;
+}
+
+.reactive_7::before,
+.reactive_7::after {
+  background-image: url("https://media0.giphy.com/media/QX81mZCxbGlqFtxqYn/giphy.gif?cid=ecf05e47dmd9668ls86ud9cofjr5qi6tmbkpcvcgnjolw4lm&rid=giphy.gif&ct=g");
+  background-size: 150px 150px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  content: ""
+}
